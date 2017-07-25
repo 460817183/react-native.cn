@@ -599,7 +599,7 @@ AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
 ```
  dependencies {
      ...
-     compile "com.facebook.react:react-native:+" // From node_modules.
+     compile "com.facebook.react:react-native:+" // From node_modules.  一定要跟你的react-native版本一样  别用+号
  }
 ```
 
